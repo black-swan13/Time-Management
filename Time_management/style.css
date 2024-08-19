@@ -20,7 +20,7 @@ h1{
       
 }
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("./Images/Avoiding_Distraction/pexels-gabby-k-6289070.jpg") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Avoiding_Distraction/pexels-gabby-k-6289070.jpg") ;
     height: 50%;
     background-position: center;
     background-size: cover;
