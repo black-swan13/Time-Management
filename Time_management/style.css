@@ -38,12 +38,8 @@ h1{
 body{
     background-color: #cadbb7;
 }<p>CSS font-family</p>
-.p1{
-    font-family: 'Courier New', Courier, monospace;
-}
+
 .p2{
     font-family:'Courier New', Courier, monospace;
 }
-.p3{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
