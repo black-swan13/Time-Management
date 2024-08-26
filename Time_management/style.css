@@ -31,7 +31,7 @@ h1{
     text-align: center;     
 }
 .hero-image{
-    background-image: url(./Images/New/banner-time-management.jpg);
+    background-image: url("https://www.shutterstock.com/image-vector/banner-time-management-concept-vector-260nw-752232736.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
