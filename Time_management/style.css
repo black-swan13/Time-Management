@@ -14,10 +14,7 @@ li {
 h1{ 
    
     color:#9dcdbf;
-    text-align: center;
-   
-   
-      
+    text-align: center;      
 }
 .hero-image{
     background-image: url("./Images/Managing_Time/A_Man.jpg");
@@ -42,4 +39,12 @@ body{
 .p2{
     font-family:'Courier New', Courier, monospace;
 }
-
+                .footer {
+                  position: fixed;
+                  left: 0;
+                  bottom: 0;
+                  width: 100%;
+                  background-color: rgb(201, 178, 240);
+                  color: white;
+                  text-align: center;
+                }
