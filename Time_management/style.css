@@ -12,17 +12,15 @@ li {
     background-color:deepskyblue;
   }
 h1{ 
-   
     color:#9dcdbf;
-    text-align: center;      
+    text-align: center;     
 }
 .hero-image{
-    background-image: url("./Images/Managing_Time/A_Man.jpg");
-    height: 50%;
+    background-image: url(./Images/Avoiding_Distraction/tongan_house2.png);
+    height: 352px;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    background-size: cover;
 }
 .hero-text {
     text-align: center;
@@ -31,20 +29,27 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(161, 183, 253);
+    font-size: 2rem;
   }
 body{
     background-color: #cadbb7;
-}<p>CSS font-family</p>
+}
 
+.p1{
+    font-family: 'Courier New', Courier, monospace;
+}
 .p2{
     font-family:'Courier New', Courier, monospace;
 }
-                .footer {
-                  position: fixed;
-                  left: 0;
-                  bottom: 0;
-                  width: 100%;
-                  background-color: rgb(201, 178, 240);
-                  color: white;
-                  text-align: center;
-                }
+.p3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(201, 178, 240);
+    color: white;
+    text-align: center;
+  }
