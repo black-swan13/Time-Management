@@ -1,7 +1,4 @@
-li {
-    display: inline;
-  }
- ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -21,11 +18,14 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
   background-color: #111;
 }
 
-  }
+.active {
+  background-color: #04AA6D;
+}
+
 h1{ 
     color:#9dcdbf;
     text-align: center;     
