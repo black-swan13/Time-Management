@@ -32,8 +32,8 @@ h1 {
 }
 
 .hero-image {
-    background-image: url(https://github.com/black-swan13/Time-Management/blob/main/Time_management/Images/Managing_Time/luis-villasmil-mlVbMbxfWI4-unsplash.jpg);
-    height: 400px;
+    background-image: url("Images/New/banner-time-management.webp") alt="Girl in a jacket" style="width:844px;height:280px;";
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
