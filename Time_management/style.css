@@ -1,6 +1,6 @@
 /* General Body Styles */
 body {
-    background-color: #f0f8ff;
+    background-color: #f9f9f9;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ header .active {
 
 /* Hero Image */
 .hero-image {
-    background-image: url("Images/New/banner-time-management.webp");
+    background-image: url("Images/New/banner-distraction-management.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,46 +58,38 @@ header .active {
 }
 
 .hero-text h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0;
-    padding: 0;
 }
 
 /* Main Content */
-.main-content {
+main {
     padding: 20px;
     text-align: center;
 }
 
-.main-img {
-    width: 80%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-.intro-text {
-    font-size: 1.2rem;
-    margin: 20px 0;
-}
-
-.tips {
+.tips-list {
     list-style-type: none;
     padding: 0;
     font-size: 1.1rem;
     text-align: left;
-    margin: 20px auto;
+    margin: 0 auto;
     display: inline-block;
+    max-width: 600px;
 }
 
-.tips li {
+.tips-list li {
     margin: 10px 0;
 }
 
 .todo-text {
     font-size: 1.1rem;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 /* Footer */
