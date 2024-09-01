@@ -40,7 +40,7 @@ header .active {
 
 /* Hero Image */
 .hero-image {
-    background-image: url("Images/New/banner-inquiry.jpg");
+    background-image: url("Images/New/banner-management.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,11 @@ header .active {
 /* Main Content */
 main {
     padding: 20px;
-    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .content h2 {
@@ -80,31 +84,26 @@ main {
     color: #555;
 }
 
-.info-text {
-    font-size: 1.1rem;
-    margin: 20px 0;
-    color: #666;
-}
-
-.contact-info {
-    font-size: 1.1rem;
-    margin: 10px 0;
-}
-
-.social-media {
+.tips {
     margin: 20px 0;
 }
 
-.social-icon {
-    display: inline-block;
-    margin: 0 10px;
+.tip {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.tip h3 {
+    font-size: 1.5rem;
     color: #1abc9c;
-    text-decoration: none;
-    font-size: 1.2rem;
 }
 
-.social-icon:hover {
-    text-decoration: underline;
+.tip p {
+    font-size: 1.1rem;
+    color: #666;
 }
 
 /* Footer */
