@@ -35,14 +35,6 @@ ul li a.active, ul li a:hover {
     color: #f39c12;
 }
 
-.hero-image {
-    background-image: url('https://example.com/hero.jpg');
-    height: 400px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
 .hero-text {
     position: absolute;
     top: 50%;
