@@ -7,73 +7,47 @@ body {
 }
 
 header {
-    background-color: #1a1a2e;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #1a1a2e; /* Use the background color you prefer */
+    color: white;
+    padding: 20px 0;
     text-align: center;
+    position: relative; /* To position the hero text correctly */
 }
 
-ul {
+header ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-ul li {
-    display: inline;
-    margin-right: 20px;
+header ul li {
+    margin: 0 20px;
 }
 
-ul li a {
+header ul li a {
     color: #fff;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
-ul li a.active, ul li a:hover {
+header ul li a.active, header ul li a:hover {
     color: #f39c12;
 }
-header {
-    background-color:#1a1a2e ; /* You can replace this with any color you prefer */
-    color: white; /* Adjust text color for better contrast with the background */
-    padding: 20px;
-    text-align: center;}
+
 .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
 }
 
 .hero-text h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 3em;
-    color: #fff;
-}
-.hero-text {
-    margin: 0 auto;
-    max-width: 800px;
-
-}
-header ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+    font-size: 2.5em;
+    color: white;
 }
 
-header ul li {
-    margin: 0 15px;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: white; /* Adjust to ensure the text is visible against the background */
-    font-weight: bold;
-}
 
 .hero-button {
     padding: 10px 20px;
