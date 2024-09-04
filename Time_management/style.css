@@ -9,7 +9,7 @@ body {
 header {
     background-color: #1a1a2e; /* Use the background color you prefer */
     color: white;
-    padding: 50px 0;
+    padding: 30px 0;
     text-align: center;
     position: relative; /* To position the hero text correctly */
 }
