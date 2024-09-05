@@ -40,6 +40,7 @@ header ul li a.active, header ul li a:hover {
 .hero-text {
     margin: 20px auto;
     max-width: 800px;
+    text-align: center; /* Centering the text horizontally */
     color: #f0a500; /* Amber text for hero section */
 }
 
