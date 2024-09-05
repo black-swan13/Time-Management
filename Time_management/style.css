@@ -40,14 +40,16 @@ header ul li a.active, header ul li a:hover {
 .hero-text {
     margin: 20px auto;
     max-width: 800px;
-    color: #e94560; /* Crimson Red text for hero section */
+    color: #f0a500; /* Amber text for hero section */
 }
 
 .hero-text h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5em;
-    color: #e94560; /* Bold Crimson Red heading */
+    font-size: 2.5em; /* Bold Crimson Red color: #e94560;heading */
+    color: #f0a500; /* Bold Amber heading */
 }
+
+    
 
 .hero-button {
     padding: 10px 20px;
