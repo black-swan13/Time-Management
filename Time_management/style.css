@@ -12,6 +12,7 @@ header {
     padding: 30px 0;
     text-align: center;
     position: relative; /* To position the hero text correctly */
+    text-align: center;
 }
 
 header ul {
