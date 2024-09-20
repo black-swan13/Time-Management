@@ -38,6 +38,34 @@
 
         <h3><b>Long-Term Benefits of Managing Distractions</b></h3>
         <p>By effectively managing distractions, you can achieve a more balanced and productive workday. This not only helps you accomplish your tasks more efficiently but also frees up time for other activities, contributing to a better work-life balance. Over time, you'll find that you can focus more deeply and for longer periods, leading to improved performance and greater satisfaction in your work.</p>
+<div id="task-manager">
+  <input type="text" id="new-task" placeholder="Add new task">
+  <button onclick="addTask()">Add Task</button>
+  <ul id="task-list"></ul>
+</div>
+
+<script>
+  function addTask() {
+    const taskInput = document.getElementById("new-task").value;
+    if (taskInput === "") return;
+
+    const li = document.createElement("li");
+    li.textContent = taskInput;
+    
+    // Add delete button
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "Delete";
+    deleteBtn.onclick = function () {
+      this.parentElement.remove();
+    };
+    
+    li.appendChild(deleteBtn);
+    document.getElementById("task-list").appendChild(li);
+    
+    // Clear input field
+    document.getElementById("new-task").value = "";
+  }
+</script>
 
         <p class="todo-text">Remember, staying focused requires continuous effort and practice. Start by making small changes to your routine, and gradually, you'll see significant improvements in your productivity.</p>
     </section>
