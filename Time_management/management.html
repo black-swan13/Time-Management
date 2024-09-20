@@ -21,6 +21,31 @@
             <h1><b><center> EFFECTIVE TIME MANAGEMENT </center></b></h1>
         </div>
     </section> 
+<div id="pomodoro">
+  <button onclick="startTimer()">Start Timer</button>
+  <p id="timer-display">25:00</p>
+</div>
+
+<script>
+  let time = 1500; // 25 minutes in seconds
+  let timerInterval;
+
+  function startTimer() {
+    if (timerInterval) clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      let minutes = Math.floor(time / 60);
+      let seconds = time % 60;
+      if (seconds < 10) seconds = "0" + seconds;
+      document.getElementById("timer-display").textContent = `${minutes}:${seconds}`;
+      time--;
+
+      if (time < 0) {
+        clearInterval(timerInterval);
+        alert("Time's up!");
+      }
+    }, 1000);
+  }
+</script>
 
   <main>
     <section class="main-content">
