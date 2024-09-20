@@ -23,6 +23,31 @@
     </section> 
 
     <main>
+        <canvas id="taskChart"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('taskChart').getContext('2d');
+  const taskChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Task 1', 'Task 2', 'Task 3'],
+      datasets: [{
+        label: 'Tasks Completed',
+        data: [12, 19, 3],
+        backgroundColor: ['rgba(75, 192, 192, 0.2)'],
+        borderColor: ['rgba(75, 192, 192, 1)'],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: { beginAtZero: true }
+      }
+    }
+  });
+</script>
+
         <section class="main-content">
             <h2>Welcome to Our Inquiry Page</h2>
             <p class="intro-text">At Blackswan Ltd, we are dedicated to helping students achieve their academic and personal goals. As a non-profit organization, we provide resources, support, and guidance to ensure that every student has the opportunity to succeed.</p>
